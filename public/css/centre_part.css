@@ -1,0 +1,206 @@
+*
+ {
+    scroll-behavior: smooth;
+    margin: 0;
+ }
+ body
+ {
+    overflow-x: hidden;
+ }
+
+.centre_part
+{
+    position: relative;
+    
+    text-align: center;
+    font-size:8rem;
+    padding: 5rem 10rem 0 10rem;
+    
+ }
+
+.google_pic
+{
+    position: absolute;
+    left: 8rem;
+    top: 5rem;
+    width: 5rem;
+    transform: rotate(-40deg);
+} 
+
+.calendar_pic
+{
+    position: absolute;
+    right: 3rem;
+    bottom: 13rem;
+    width: 5rem;
+    transform: rotate(15deg);
+}
+
+.arrow_pic1
+{
+    width: 10rem;
+    position: absolute;
+    left: 5rem;
+    top: 15rem;
+    transform: rotate(100deg);
+}
+.arrow_pic2
+{
+    width: 10rem;
+    position: absolute;
+    right: 5rem;
+    top: 15rem;
+    bottom: 0;
+   transform: rotate(-80deg);
+}
+
+.intro_text
+{
+    font-size:20px;
+    padding: 2rem 4rem 0 4rem;
+    
+    
+}
+
+.Optimizer_class
+{
+    color: aliceblue;
+    background-color: orangered;
+    border-radius: 50px;
+    
+}
+
+.get_started
+{
+    width: 20rem;
+}
+
+.get_started:hover::placeholder
+{
+    color: transparent;
+    
+}
+
+.get_started_btn
+{
+    transition: 500ms;
+    font-size: 2rem;
+    border-radius: 40px;
+    background-color: orangered;
+    color: aliceblue;
+    padding: 0.5rem 5rem 0.5rem 5rem;
+    text-decoration: none;
+    
+    
+}
+
+.get_started_btn:hover
+{
+    font-size: 2.1rem;
+    box-shadow: 8px 8px 10px black;
+}
+
+.shuttle_pic
+{
+    width: 2rem;
+    color: white;
+}
+
+/* <-----------------------------------------------------> */
+.register_form
+{
+    position: relative;
+    grid-template-columns: auto;
+    justify-content: center;
+    display: grid;                        
+    
+}
+/* <-----------------------------------------------------> */
+
+.register_form > form
+{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 1rem;
+    /* width: 10rem; */
+}
+
+.register_input
+{ 
+    border: none;
+    border-radius: 20px;
+    outline:none;
+    background: none;
+    padding: 10px;
+    color: black;
+    width: 25rem;
+    font-size: 1.2rem;
+    padding-left: 3rem;
+    box-shadow: inset 8px 8px 8px #cbced1,
+                inset -8px -8px 8px #ffffff;
+    margin-bottom: 3rem;
+}
+
+
+.register_input:focus::placeholder
+{
+    color: transparent;
+}
+
+.user_pic,
+.key_pic,
+.mail_pic
+{
+    width: 2rem;
+}
+
+.user_pic
+{
+    position: absolute;
+    top: 3.3rem;
+    padding-left: 10px;
+}
+
+.create_user
+{
+   width: 10rem;
+   font-size: 2rem;
+   background: orangered;
+   border-radius: 40px;
+   margin: auto;
+   transition: 400ms;
+   color: white;
+   font-family:'Poppins', sans-serif;
+}
+
+.create_user:hover
+{
+    transform: scale(1.1);
+    box-shadow:darkgray;
+}
+
+.hi
+{
+    font-size: 50rem;
+}
+
+input{
+    padding-left: 2rem;
+}
+
+
+
+.mail_pic
+{
+    position: absolute;
+    top: 10rem;
+    padding-left: 0.5rem;
+}
+
+.key_pic
+{
+    position: absolute;
+    top: 16.5rem;
+    padding-left: 0.5rem;
+}
+

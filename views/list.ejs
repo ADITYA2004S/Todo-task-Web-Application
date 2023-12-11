@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/list.css">
+</head>
+<body>
+    <div class="list_heading">
+        
+        <h1 id = "Date_info" >Hello</h1>    
+        <form method="post" action="/create_task">
+           <div>
+            <input type="text" class="task_input" name="targets" placeholder="Enter your task">
+           </div>
+            <div>
+                <button type="submit" class="task_btn">Enter task</button>
+            </div>
+        </form>
+       
+        
+        <% if(locals.tasks) { for( let i = 0; i < tasks.length; i++ ) { %>
+            <div class="list_page">
+               
+                    <h4 class="task_text"><%= tasks[i] %></h4>
+              
+                    <div class="task_checker">
+                        <form method="post" action="/delete_task" >
+                            <input type="hidden" name="task_text" value="<%= tasks[i] %>">
+                            <button type="submit"><img class="cross_btn" src="images/cross.png" ></button>
+                        </form>
+                        <form method="post" action="/complete_task">
+                            <input type="hidden" name="task_text" value="<%= tasks[i] %>">
+                           <button type="submit" href="/complete_task" onclick="completion_call()" > <img   class="check_btn" src="images/correct.png" ></button>
+                        </form >
+                    </div>
+                </div>
+            
+                <% }} %>
+            </div>
+            
+            <script src="javascript/index.js"></script>
+            <script src="javascript/to_do_list.js"></script>
+        </body>
+        </html>

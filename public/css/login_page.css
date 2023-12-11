@@ -1,0 +1,104 @@
+*
+{
+    margin: 0;
+}
+
+
+
+.main_login_page
+{
+    position: relative;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5rem;
+    height: 100dvh;
+    gap: 0 3rem;
+    /* background-color: orangered; */
+    /* background-color: #afafaf90; */
+    background-image: linear-gradient(45deg,orangered,orange, white);
+    
+}
+
+.login_btn
+{
+    font-size: 2rem;
+    border-radius: 20px;
+    font-family:'REM', sans-serif;;
+    padding: 0.5rem 0 0.5rem 0.5rem;
+    width: 10rem;
+    background-color: orangered;
+    color: white;
+    transition: 300ms;
+    text-align: center;
+    text-decoration: none;
+   
+}
+/* .login_btn:hover
+{
+    
+} */
+
+input
+{
+    width: 25rem;
+    font-size:1.2rem;
+    border-radius: 20px;
+    padding-left: 3rem;
+    padding: 10px 10px 10px 60px;
+    margin-bottom: 20px;
+}
+
+input:hover::placeholder
+{
+    color: transparent;
+}
+
+.key_pic,
+.mail_pic
+{
+    width: 2rem;
+}
+
+
+
+.login_form_input
+{
+    position: relative;
+}
+.mail_pic
+{
+    position: absolute;
+    left:1rem;
+    top: 0.5rem;
+
+}
+.key_pic
+{
+    position: absolute;
+    left: 1rem;
+    top: 0.5rem;
+}
+
+.login_form
+{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff90;
+    
+    padding: 5rem 0 5rem 0;
+    border-radius: 40px;
+    border: 5px solid white;
+}
+
+.login_name
+{
+    grid-column: span 2;
+    font-size: 5rem;
+    margin-bottom: -10rem;
+    font-family: 'REM', sans-serif;;
+}
+

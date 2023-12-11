@@ -1,0 +1,37 @@
+*
+{
+    margin: 0;
+}
+
+body{
+   
+    overflow: hidden;
+    background-image: url("../images/Error.jpg");
+    background-size: cover;
+    z-index: -1;
+}
+
+.go_home_btn
+{
+    font-weight:bold;
+    font-size: 2rem;
+    border-radius: 10px;
+    background-color: lavender;
+    
+
+}
+
+.go_home_btn
+{
+    align-content: center;
+    position: relative;
+    top: 45rem;
+    left: 45rem;
+    transition: 300ms;
+   
+}
+
+.text
+{
+    text-decoration: none;
+}

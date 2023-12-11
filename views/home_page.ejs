@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=REM:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/centre_part.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+      
+
+
+
+<!--------------------------------------------------------->
+<!-------------------------Navbar-------------------------->
+<!--------------------------------------------------------->
+<section class="navbar" id="home-page">
+    <div class="entire_navbar">
+        <div class="navbar_heading">
+            <h3 class="brand_name" >ToDoIt</h3>
+        </div>
+        <div>
+            <ul>
+              <a href="#home-page">  <li class="home navbar-elements">Home</li></a>
+                
+                <a href="/contact" > <li class="navbar-elements" >About</li></a>
+                <a href="/contact" > <li class="navbar-elements" >Contact-Us</li> </a>
+            </ul>
+        </div>
+         <div class="sign-up_btn">
+            <p class="navbar-elements"><a href="/sign-up_page" class="sign-up_page"> Sign-up</a></p>
+         </div>
+    </div>
+</section>
+
+
+
+
+<!--------------------------------------------------------->
+<!-------------------------Centre-------------------------->
+<!--------------------------------------------------------->
+
+<section class="centre">
+    <div class="centre_part" >
+        <h1>To Do List</h1>
+        <h1 class="Optimizer_class">Optimizer</h1>
+        <p class="intro_text" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quos quo soluta praesentium. Eveniet, eum illo tempore cupiditate pariatur perspiciatis?</p>
+        <img class="google_pic" src="images/google.png" alt="google-pic">
+        <img class="calendar_pic" src="images/calendar.png" alt="calender-pic"> 
+        <img class="arrow_pic1" src="images/arrow.png" alt="arrow_pic1"> 
+        <img class="arrow_pic2" src="images/arrow.png" alt="arrow_pic2"> 
+           <div>
+                <a  href="#form" class="get_started_btn" type="" onclick="input_box()"><img class="shuttle_pic" src="/images/shuttle.png"> Get Started</a>
+                
+           </div>
+    </div>
+
+    <div class="register_form" id="form" >
+        <form method="post" action="/create_account" autocomplete="off" >
+            <input class="register_input" type="text"name="Username" placeholder="Username">
+            <img  class="user_pic" src="images/user.png">
+            <input class="register_input" type="text" name="Email" placeholder="Enter your email">
+            <img class="mail_pic" src="images/email.png">
+            <input class="register_input" type="password" name="password" placeholder="password">
+            <img class="key_pic" src="images/key.png">
+            <button class="create_user" id="create-user-button" type="Submit" onclick="call_me()">Create</button>
+        </form>
+    </div>
+</section>
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+<script src="javascript/index.js"></script>
+</body>
+</html>

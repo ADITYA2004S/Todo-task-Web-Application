@@ -1,0 +1,136 @@
+*
+{
+    margin: 0;
+}
+
+
+.task_input
+{
+    width: 100%;
+    margin-left: 2rem;
+    font-size: 2rem;
+    border-radius: 20px;
+    letter-spacing: 1px;
+    
+}
+
+.task_input:hover::placeholder
+{
+    color: transparent;
+}
+
+.task_input::placeholder
+{
+    padding-left: 0.5rem;
+}
+
+.task_btn
+{
+    font-size: 1.5rem;
+    max-width: max-content;
+    padding: 0.5rem;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: orangered;
+    color: aliceblue;
+    font-family: 'REM', sans-serif;
+    transition: 300ms;
+}
+
+.task_btn:hover
+{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 5px black;
+}
+
+.list_heading
+{
+    position: relative;
+    top: 5rem;
+    text-align: center;
+}
+
+/* .task_query
+{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+} */
+form
+{
+    display: grid;
+    grid-template-columns: 75% 20%;
+    gap:1rem;
+    justify-content: center;
+    align-items: center;
+
+}
+
+input
+{
+    padding-left: 2rem;
+}
+
+.list_page
+{
+    
+   background-color: wheat;
+   border-radius: 40px;
+   width: 80%;
+   margin: 0 auto;
+   padding: 2rem 0;
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+   display: grid;
+   grid-template-columns: auto auto ;
+   justify-content: space-between;
+   
+}
+
+.check_btn
+{
+    width: 3rem;
+    opacity: 0.78;
+}
+
+.check_btn:hover
+{
+    opacity:10;
+}
+
+.cross_btn
+{
+    width: 3rem;
+    opacity:0.95;
+}
+
+.cross_btn:hover
+{
+    opacity:2;
+}
+
+
+.task_text
+{
+    width: 500px;
+    padding-left: 2rem;
+    text-align: left;
+    
+}
+
+.task_checker
+{
+    padding-right: 2rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+}
+
+button
+{
+    all: unset;
+    
+}

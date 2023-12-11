@@ -1,0 +1,107 @@
+ *
+ {
+    margin: 0;
+ }
+
+ .brand_name
+ {
+    padding: 2rem 0 0 2rem;
+    font-family: 'REM', sans-serif;
+    font-size: 2rem;
+ }
+
+ ul
+ {
+    list-style-type: none;
+   }
+   
+
+li
+{
+   display: inline-block;
+    padding: 3rem 2rem 0 0;
+    font-family:'REM', sans-serif;
+    font-weight:bolder; 
+    
+    
+}
+
+
+
+li:hover
+{
+   color: orange;
+   
+}
+
+
+
+.sign-up_btn
+{
+   font-family: 'REM', sans-serif;
+   font-weight: bold;
+   padding-top: 3rem;
+   
+}
+
+.sign-up_btn:hover
+{
+   color: orange;
+}
+
+.sign-up_page::before
+{
+   content: '';
+   display: inline-block;
+   position: absolute;
+   background-color: blueviolet;
+  
+}
+
+
+
+.entire_navbar
+{
+   display: grid;
+   grid-template-columns: 65% 25% 10%;
+   gap: 1rem;
+}
+
+.sign-up_page
+{
+   text-decoration: none;
+   color: black;
+}
+
+.register_form
+{
+   background-color: #ecf0f3;
+   /* padding:5rem 0 5rem 0; */
+   width: max-content;
+   margin: auto;
+   margin-top: 3rem;
+   padding: 3rem 3rem;
+   border-radius: 20px;
+   box-shadow: 13px 13px 20px #cbced1,
+               -13px -13px 20px #ffffff;
+   
+}
+
+.navbar-elements
+{
+   transition: transform 300ms;
+}
+
+.navbar-elements:hover
+{
+   transform: scale(1.1);
+   text-decoration: underline;
+   text-underline-offset: 0.5rem;
+}
+
+a
+{
+   color: black;
+}
+
+
