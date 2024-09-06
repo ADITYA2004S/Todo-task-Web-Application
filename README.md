@@ -2,12 +2,28 @@
 The To-Do Task Application is a web-based tool designed to help users efficiently manage their tasks and improve productivity. 
 This project provides a user-friendly interface for creating, updating, and tracking tasks, ensuring that users stay organized and on top of their daily responsibilities.
 
+<br>
+
 # 🛠️ Features
-**✅ Task Management: Create, edit, and delete tasks with ease.
+**✅ Task Management**: Create, edit, and delete tasks with ease.
 
-**✅ User Interface: Intuitive and responsive design for a seamless user experience.
+**✅ User Interface**: Intuitive and responsive design for a seamless user experience.
 
-**✅ Completion Status: Mark tasks as completed to track progress.
+**✅ Completion Status**: Mark tasks as completed to track progress.
+
+<br>
+
+# 🖥️ Tech Stack Used
+
+- 🌐 HTML
+- 🎨 CSS
+- 🟢 Node.js
+- 🚀 Express.js
+- ⚙️ JavaScript
+- 🗃️ MongoDB
+
+
+<br>
 
 # :zap:Installation
 
@@ -32,4 +48,19 @@ npm install nodemon -g
 npm start
 ```
 
+<br>
+
 # 🚀 Usage
+
+- 📝 Add tasks by entering them in the input field.
+
+- ✅ Mark tasks as completed by clicking on them.
+
+- 🗑️ Delete tasks that are no longer relevant.
+
+<br>
+
+# 📧 Contact
+For any questions or feedback, please reach out to me at [adityasinghofficial06@gmail.com].
+
+
